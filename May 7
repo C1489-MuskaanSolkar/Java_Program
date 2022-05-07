@@ -1,0 +1,10 @@
+#WAP to display your basic information
+public class Main{
+
+public static void main(String[] args){
+System.out.println(" My name is Muskaan Solkar."
+ + "\n I have completed  my BSC-IT from Shankar Narayan College."
++"\n I live in Bhayander."); 
+ 
+ }
+ }
