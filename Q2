@@ -1,0 +1,33 @@
+#WAP to accept two no from user and find out add,sub,mul,div,mod
+import java.util.Scanner;
+public class Add
+{
+
+public static void main(String[] args){
+int a,b;
+  Scanner sc = new Scanner(System.in);
+   
+  System.out.println("Enter first number: ");
+   a = sc.nextInt();
+  
+  System.out.println("Enter second number: ");
+  b = sc.nextInt();
+  
+  int sum=a+b;
+  int sub=a-b;
+  int mul=a*b;
+  int div=a/b;
+  int mod=a%b;
+  
+   System.out.println("Addition of number");
+   System.out.println(sum);
+    System.out.println("Subtraction of number");
+   System.out.println(sub);
+    System.out.println("Multiplication of number");
+   System.out.println(mul);
+    System.out.println("Division of number");
+   System.out.println(div);
+    System.out.println("mod of number");
+   System.out.println(mod);
+   }
+}
