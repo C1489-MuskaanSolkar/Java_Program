@@ -1,0 +1,23 @@
+#WAP to accept p,r,t from user and calculate SI
+import java.util.Scanner;
+public class Mains  
+ {  
+   public static void main (String args[])  
+    {   
+	float p,r,t,si;
+	Scanner sc = new Scanner(System.in);
+   
+  System.out.print("Enter Principal: ");
+   p = sc.nextFloat();
+  
+    System.out.print("Enter Rate of Interest: ");
+   r= sc.nextFloat();
+  
+   System.out.print("Enter Time: ");
+   t= sc.nextFloat();
+ 
+  si =(p*r*t)/100;
+           System.out.println("simple interest is: "+si);   
+                  
+    } 
+	}  
