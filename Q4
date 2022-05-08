@@ -1,0 +1,24 @@
+#WAP to accept R from user and calculate AC,CC
+import java.util.Scanner;
+public class Rad
+ {  
+   public static void main (String args[])  
+    {   
+	int radius;
+	double pi=3.14, area ,c;
+	Scanner sc = new Scanner(System.in);
+   
+  System.out.print("Enter radius: ");
+   radius = sc.nextInt();
+   
+  area = pi*(radius*radius);
+        
+        System.out.println("Area of circle is :" + area);
+		
+	c=2*pi*radius;
+	
+		System.out.println("Circumference of circle is :" + c);
+		
+		}
+		}
+  
