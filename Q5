@@ -1,0 +1,24 @@
+#WAP to accept l,b from user and calculate AR,PR
+import java.util.Scanner;
+public class Peri
+ {  
+   public static void main (String args[])  
+    {   
+	int l,b;
+	float area,pr;
+	Scanner sc = new Scanner(System.in);
+   
+  System.out.print("Enter Length: ");
+   l = sc.nextInt();
+   
+   System.out.print("Enter breadth: ");
+   b = sc.nextInt();
+    
+	area = l*b;
+	System.out.println("Area of circle is :" + area);
+	
+	pr= 2 *(l+b);
+	System.out.println("Perimeter of rectangle is:" + pr);
+	
+	}
+ }
