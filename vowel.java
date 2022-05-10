@@ -1,3 +1,4 @@
+#WAP to accept a character and check it is vowel or not
 package vowel;
 import java.util.Scanner;
 public class vowel {
@@ -9,9 +10,6 @@ Scanner sc = new Scanner(System.in);
 System.out.println("Enter a Character");
 
 char c =sc.next().charAt(0);
-
-
-
 
 if (c=='a'||  c=='e'||  c=='i')
 {
