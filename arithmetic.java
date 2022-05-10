@@ -1,3 +1,4 @@
+#WAP to accept two no and choice from user for arithmetic operation and  display the output
 package arithmetic;
 import java.util.Scanner;
 public class arithmetic {
